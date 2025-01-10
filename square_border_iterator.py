@@ -31,7 +31,7 @@ def clear_data(size: int, center: int) -> list[list[str]]:
     return data
 
 
-s = 11
+s = 7
 if s % 2 == 0:
     raise Exception('Please provide even size value!')
 c = int((s - 1) / 2)
